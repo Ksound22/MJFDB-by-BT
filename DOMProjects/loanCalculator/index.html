@@ -12,6 +12,15 @@
         integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
     <style>
+        body,
+        .btn {
+            background-color: #2ecc71;
+        }
+
+        .heading {
+            color: #2ecc71;
+        }
+
         #loading,
         #results {
             display: none;
@@ -19,7 +28,7 @@
     </style>
 </head>
 
-<body class="bg-dark">
+<body>
     <div class="container">
         <div class="row">
             <div class="col-md-6 mx-auto">
@@ -42,15 +51,15 @@
                             <input type="number" class="form-control" id="years" placeholder="Years To Repay">
                         </div>
                         <div class="forn-group">
-                            <input type="submit" value="Calculate" class="btn btn-dark btn-block">
+                            <input type="submit" value="Calculate" class="btn btn-success btn-block font-weight-bold">
                         </div>
                     </form>
                     <!-- LOADER -->
 
                     <div id="loading" class="text-center">
-                        <img src="https://64.media.tumblr.com/5d20cb9d224eb97fab488a8ca5b38d33/tumblr_nsocqzECoE1sjmeczo1_540.gifv"
-                            alt="" width="100px" height="100px">
-                        <div>Calculating</div>
+                        <img src="https://cdn.dribbble.com/users/194846/screenshots/1452453/loadingspinner.gif" alt=""
+                            width="140px" height="250px">
+                        <div class="font-weight-bold">Calculating</div>
                     </div>
 
                     <!-- RESULTS -->
@@ -97,3 +106,8 @@
 </body>
 
 </html>
+
+<!-- https://cdn.dribbble.com/users/194846/screenshots/1452453/loadingspinner.gif -->
+
+
+<!-- https://64.media.tumblr.com/5d20cb9d224eb97fab488a8ca5b38d33/tumblr_nsocqzECoE1sjmeczo1_540.gifv -->
