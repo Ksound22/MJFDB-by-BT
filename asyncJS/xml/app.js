@@ -9,11 +9,11 @@ function loadData(e) {
 
   //   OPtional - used to load spinners
   xhr.onprogress = function () {
-    console.log("READY STATE", xhr.readyState);
+    // console.log("READY STATE1:", xhr.readyState);
   };
 
   xhr.onload = function () {
-    // console.log("READY STATE", xhr.readyState);
+    console.log("READY STATE:", xhr.readyState);
     if (this.status === 200) {
       //   console.log(this.responseText);
       document.getElementById(

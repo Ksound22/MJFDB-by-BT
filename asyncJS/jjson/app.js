@@ -4,7 +4,7 @@ document.getElementById("button2").addEventListener("click", loadCustomers);
 function loadCustomer(e) {
   const xhr = new XMLHttpRequest();
 
-  xhr.open("GET", "Customer.json", true);
+  xhr.open("GET", "customer.json", true);
 
   xhr.onload = function () {
     if (this.status === 200) {
@@ -32,7 +32,7 @@ function loadCustomer(e) {
 function loadCustomers(e) {
   const xhr = new XMLHttpRequest();
 
-  xhr.open("GET", "Customers.json", true);
+  xhr.open("GET", "customers.json", true);
 
   xhr.onload = function () {
     if (this.status === 200) {
