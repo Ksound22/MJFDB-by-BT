@@ -11,7 +11,6 @@ loadEventListeners();
 // Function to load all events
 function loadEventListeners() {
   // DOM load event
-
   document.addEventListener("DOMContentLoaded", getTasks);
 
   // Add Task events

@@ -4,7 +4,7 @@
 name = "Kolade";
 console.log(name);
 
-var greeting;
+var greeting;  
 greeting = "Hello";
 
 console.log(greeting);
@@ -56,25 +56,28 @@ console.log(person.name);
 // console.log(sum);
 // console.log(typeof sum);
 
+/*
 // The Math object
-// const num1 = 34;
-// const num2 = 5;
-// let val = num1 - num2;
-// val = Math.PI;
-// val = Math.random();
-// val = Math.E;
-// val = Math.round(2.6);
-// val = Math.ceil(2.4);
-// val = Math.floor(4.8);
-// val = Math.sqrt(64);
-// val = Math.abs(-343);
-// val = Math.pow(26, 2);
-// val = Math.min(3, 8, 5, 1, 0.1);
-// val = Math.max(6, 9, 89);
-// val = Math.random();
-// val = Math.floor(Math.random() * 20 + 1);
+const num1 = 34;
+const num2 = 5;
+let val = num1 - num2;
+val = Math.PI;
+val = Math.random();
+val = Math.E;
+val = Math.round(2.7);
+val = Math.ceil(2.9);
+
+val = Math.floor(4.8);
+val = Math.sqrt(64);
+val = Math.abs(-343);
+val = Math.pow(26, 2);
+val = Math.min(3, 8, 5, 1, 0.1);
+val = Math.max(6, 9, 89);
+val = Math.random();
+val = Math.floor(Math.random() * 20 + 1);
 
 // console.log(val);
+*/
 
 // Strings and Concatenation
 // const firstName = "Kolade";
@@ -176,6 +179,8 @@ console.log(person.name);
 // birthday = new Date("September 10 1990");
 // birthday = new Date("9/10/1991");
 
+// console.log(birthday.getDate());
+
 // val = today.getMonth();
 // val = today.getDate();
 // val = today.getDay();
@@ -185,7 +190,6 @@ console.log(person.name);
 // val = today.getSeconds();
 // val = today.getMilliseconds();
 // val = today.getTime();
-
 // console.log(val);
 
 // birthday.setMonth(2);
@@ -256,9 +260,9 @@ console.log(person.name);
 // }
 // let id = 100;
 // Ternary
-// console.log(id === 100 ? "Correct" : "Incorrect");
+// console.log(id === 100 ? `Correct. The ID is ${id}` : "Incorrect");
 
-// In if statements, the bracesare optional
+// In if statements, the braces are optional
 
 // if (id === 100)
 //     console.log("Correct")
@@ -284,7 +288,7 @@ console.log(person.name);
 // }
 
 // let day;
-// switch (new Date().getDay()) {
+// switch (new Date().get()) {
 //   case 0:
 //     day = "Sunday";
 //     break;
@@ -401,7 +405,7 @@ console.log(person.name);
 
 // forEach - a better way of looping
 // cars.forEach(function (car, index) {
-//   console.log(`${index} : ${car}`);
+//   console.log(`${index}: ${car}`);
 // });
 
 // const users = [

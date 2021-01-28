@@ -12,7 +12,7 @@
 //   let val;
 //   val = e;
 
-//   Event target element
+//   //   Event target element
 //   val = e.target;
 //   val = e.target.id;
 //   val = e.target.className;
@@ -32,14 +32,13 @@
 //   // Coords of event relative to the element
 //   val = e.offsetY;
 //   val = e.offsetX;
-
 //   console.log(val);
 // }
 
 // MOUSE EVENTS
-// const clearBtn = document.querySelector(".clear-tasks");
-// const card = document.querySelector(".card");
-// const heading = document.querySelector("h5");
+const clearBtn = document.querySelector(".clear-tasks");
+const card = document.querySelector(".card");
+const heading = document.querySelector("h5");
 
 // Click
 // clearBtn.addEventListener("click", runEvent);
@@ -131,7 +130,7 @@
 // });
 
 // document.querySelector(".card-content").addEventListener("click", function () {
-//   console.log("cars content");
+//   console.log("card content");
 // });
 
 // document.querySelector(".card").addEventListener("click", function () {

@@ -3,10 +3,11 @@
 // const list = document.querySelector("ul.collection");
 // const listItem = document.querySelector("li.collection-item:first-child");
 
-// val = listItem;
 // val = list;
 
-// // Get child nodes
+// val = list;
+
+// Get child nodes
 // val = list.childNodes;
 // // Returns node list
 
@@ -61,35 +62,37 @@
 
 // console.log(val);
 
+/*
 // CREATING ELEMENT
-// const li = document.createElement("li");
+const li = document.createElement("li");
 
 // // ADD class to it
-// li.className = "collection-item";
+li.className = "collection-item";
 // // Add id
-// li.id = "new-item";
+li.id = "new-item";
 
 // // Add attribute
-// li.setAttribute("title", "New Item");
+li.setAttribute("title", "New Item");
 
 // //Create text node and append it
-// li.appendChild(document.createTextNode("Kolade"));
+li.appendChild(document.createTextNode("Kolade"));
 
 // // Create new link
-// const link = document.createElement("a");
+const link = document.createElement("a");
 
 // // Add classes
-// link.className = "delete-item secondary-content";
+link.className = "delete-item secondary-content";
 // // Add icon html
-// link.innerHTML = '<i class="fa fa-remove"></i>';
+link.innerHTML = '<i class="fa fa-remove"></i>';
 
 // // Append link to li
-// li.appendChild(link);
+li.appendChild(link);
 
 // // Append li as child to Ul
-// document.querySelector("ul.collection").appendChild(li);
+document.querySelector("ul.collection").appendChild(li);
 
-// console.log(li);
+console.log(li);
+*/
 
 // REMOVING AND REPLACING ELEMENTS
 
@@ -99,19 +102,19 @@
 
 // const newHeading = document.createElement("h4");
 
-// // Add id
+// Add id
 // newHeading.id = "task-title";
 
-// // New text node
+// New text node
 // newHeading.appendChild(document.createTextNode("Task LIST"));
 
-// // Get old heading
+// Get old heading
 // const oldHeading = document.getElementById("task-title");
 
-// // Parent
+// Parent
 // const cardAction = document.querySelector(".card-action");
 
-// // Replace
+// Replace
 // cardAction.replaceChild(newHeading, oldHeading);
 
 // // Remove from the DOM
@@ -137,6 +140,8 @@
 // val = link.className;
 // val = link.classList;
 // val = link.classList[0];
+
+// console.log(val);
 
 // // Add class using class list
 // link.classList.add("testing");

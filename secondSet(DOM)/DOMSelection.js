@@ -35,8 +35,8 @@
 // items[3].textContent = "Kolade is here";
 
 // const listItem = document
-//   .querySelector("ul")
-//   .getElementsByClassName("collection-item");
+// .querySelector("ul")
+// .getElementsByClassName("collection-item");
 
 // console.log(listItem);
 
@@ -75,4 +75,4 @@ for (let i = 0; i < liEven.length; i++) {
   liEven[i].style.background = "#f1f1f1";
 }
 
-console.log(items);
+// console.log(items);
